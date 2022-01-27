@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(45,44,44,1) 50%, rgba(3,3,3,1) 100%);
+    color: #fff;
+}
+
+h1{
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.city img{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.city p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.city-field{
+    padding: 0px 0px 0px 8px;
+    font-family: "Ubuntu", sans-serif;
+    outline: none;
+}
+
+.city-field:focus{
+    outline: none;
+}
+
+.city{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn{
+    margin-left: 10px;
+    width: 70px;
+    height: 30px;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+
+.heading{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.data{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.data p{
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heading{
+        margin-top: 30px;
+    }
+}

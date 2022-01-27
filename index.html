@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <h1>Check the weather</h1>
+    <form action="" onsubmit="return false" id="form">
+        <input type="text" name="" id="city-field" class="city-field" placeholder="Enter your city name">
+        <button id="confirm-btn" class="btn">Search</button>
+    </form>
+    <div class="city">
+        <h2 id="city-heading" class="city-head"></h2>
+        <img id="condition-img" src="" alt="" srcset="">
+        <p id="condition-txt"></p>
+    </div>
+
+    <main>
+        <section class="temprature">
+            <div class="temprature-head heading">
+                <p id="temp-heading"></p>
+            </div>
+            <div class="temprature-data data">
+                <p id="temp-cel" class="celcius"></p>
+                <p id="temp-far" class="far"></p>
+            </div>
+        </section>
+
+        <section class="humidity">
+            <div class="humidity-head heading">
+                <p id="humidity-heading"></p>
+            </div>
+            <div class="humidity-data data">
+                <p id="humidity-value" class=""></p>
+            </div>
+        </section>
+
+        <section class="wind">
+            <div class="wind-head heading">
+                <p id="wind-heading"></p>
+            </div>
+            <div id="wind-data" class="wind-data data">
+                <p id="wind-speed" class=""></p>
+                <p id="wind-degree" class=""></p>
+                <p id="wind-dir" class=""></p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
